@@ -8,6 +8,8 @@ A 4-page Power BI report that analyses **$17.33M in net sales across 55K orders 
 
 **Author:** Krushal Sardhara · Lambton College, AI & ML program · April 2026 · individual project
 
+**Open the report:** download [`retail_sales_dashboard.pbix`](retail_sales_dashboard.pbix) and open it in Power BI Desktop (free, Windows). The data is imported into the file, so no data source connection is needed.
+
 ---
 
 ## Dashboard preview
@@ -86,5 +88,13 @@ retail-sales-powerbi-dashboard/
 │   ├── 01_executive_summary.png
 │   ├── 02_customer_channel_insight.png
 │   └── 03_star_schema_model.png
+├── retail_sales_dashboard.pbix   # full Power BI report and data model
 └── README.md
 ```
+
+## How to explore it
+
+1. Install [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (free; Windows only).
+2. Download `retail_sales_dashboard.pbix` from this repository and open it.
+3. Use the page tabs at the bottom to move through the four report pages, and the slicers on page 1 to filter by year, region, category and channel.
+4. Open **Model view** to see the star schema, or the `_Measures` table in the **Data** pane to read the DAX for each measure.
